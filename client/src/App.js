@@ -56,10 +56,10 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <h2>Smart Contract Example TstOne ERC721</h2>
+        <h2>Smart Contract Example TestOne ERC721</h2>
         <form onSubmit={this.handleSubmitBuyBox}>
             <label>
-              Adresse :
+              Nombre de Box :
               <input name="numberBox" type="text" value={this.state.numberBox} onChange={this.handleChangeNumberBox} />
             </label>
           <input type="submit" value="Acheter" />
